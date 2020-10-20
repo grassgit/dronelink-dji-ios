@@ -17,6 +17,7 @@
 		246BB8E1236507D600A8E7D7 /* DJIDroneSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BB8E0236507D600A8E7D7 /* DJIDroneSession.swift */; };
 		246BB8E523650D8F00A8E7D7 /* DJIControlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BB8E423650D8F00A8E7D7 /* DJIControlSession.swift */; };
 		246BB8EB236710D900A8E7D7 /* DJIDroneSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246BB8EA236710D900A8E7D7 /* DJIDroneSessionManager.swift */; };
+		4A74DC95253D6C6900D67747 /* DJIRTKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A74DC94253D6C6900D67747 /* DJIRTKManager.swift */; };
 		E34CA237EFFC551FB88EA6F9 /* Pods_DronelinkDJI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568F0787D27F01F082C671FB /* Pods_DronelinkDJI.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		246BB8E0236507D600A8E7D7 /* DJIDroneSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJIDroneSession.swift; sourceTree = "<group>"; };
 		246BB8E423650D8F00A8E7D7 /* DJIControlSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJIControlSession.swift; sourceTree = "<group>"; };
 		246BB8EA236710D900A8E7D7 /* DJIDroneSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJIDroneSessionManager.swift; sourceTree = "<group>"; };
+		4A74DC94253D6C6900D67747 /* DJIRTKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJIRTKManager.swift; sourceTree = "<group>"; };
 		568F0787D27F01F082C671FB /* Pods_DronelinkDJI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DronelinkDJI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		695112868FF2A04153ECD9E0 /* Pods-DronelinkDJI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DronelinkDJI.debug.xcconfig"; path = "Target Support Files/Pods-DronelinkDJI/Pods-DronelinkDJI.debug.xcconfig"; sourceTree = "<group>"; };
 		B6CEDAFE2C1B3CB703B2D885 /* Pods-DronelinkDJI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DronelinkDJI.release.xcconfig"; path = "Target Support Files/Pods-DronelinkDJI/Pods-DronelinkDJI.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				245227D623676DE200123D75 /* DJIDroneSession+DroneCommand.swift */,
 				245227DA2367776700123D75 /* DJIDroneSession+GimbalCommand.swift */,
 				246BB8EA236710D900A8E7D7 /* DJIDroneSessionManager.swift */,
+				4A74DC94253D6C6900D67747 /* DJIRTKManager.swift */,
 				244C7EB1236886E3005DA5D8 /* DronelinkDJI.swift */,
 				245227D12367617B00123D75 /* Extensions.swift */,
 				246BB8D72364DA5300A8E7D7 /* Info.plist */,
@@ -226,6 +229,7 @@
 				245227D723676DE200123D75 /* DJIDroneSession+DroneCommand.swift in Sources */,
 				246BB8E523650D8F00A8E7D7 /* DJIControlSession.swift in Sources */,
 				246BB8E1236507D600A8E7D7 /* DJIDroneSession.swift in Sources */,
+				4A74DC95253D6C6900D67747 /* DJIRTKManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +363,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HB9BS895PG;
+				DEVELOPMENT_TEAM = 244594FN6F;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -390,7 +394,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HB9BS895PG;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

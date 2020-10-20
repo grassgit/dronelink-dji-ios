@@ -5,4 +5,5 @@ use_frameworks!
 target 'DronelinkDJI' do
   pod 'DronelinkCore', '~> 1.7.0'
   pod 'DJI-SDK-iOS', '~> 4.13.1'
+  pod 'SwiftyUserDefaults', '~> 5.0.0'
 end

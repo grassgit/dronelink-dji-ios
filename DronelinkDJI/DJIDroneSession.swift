@@ -14,6 +14,7 @@ public class DJIDroneSession: NSObject {
     internal let log = OSLog(subsystem: "DronelinkDJI", category: "DJIDroneSession")
     
     public let adapter: DJIDroneAdapter
+    public let rtk: DJIRTKManager
     
     private let _opened = Date()
     private var _closed = false
@@ -57,6 +58,7 @@ public class DJIDroneSession: NSObject {
     
     public init(drone: DJIAircraft) {
         adapter = DJIDroneAdapter(drone: drone)
+        rtk = DJIRTKManager(drone: drone)
         super.init()
         initDrone()
         Thread.detachNewThread(self.execute)
@@ -531,6 +533,7 @@ extension DJIDroneSession: DroneSession {
     
     public func close() {
         _closed = true
+        rtk.close()
     }
 }
 

@@ -52,7 +52,7 @@ extension DJIDroneSessionManager: DJISDKManagerDelegate {
         else {
             os_log(.info, log: log, "DJI SDK Registered successfully")
         }
-        
+        DJISDKManager.enableBridgeMode(withBridgeAppIP: "192.168.1.116")
         DJISDKManager.startConnectionToProduct()
         DJISDKManager.setLocationDesiredAccuracy(kCLLocationAccuracyNearestTenMeters)
     }
